@@ -111,7 +111,7 @@ form a:hover{
 @media screen and (max-width: 430px){
     .login{
         width: 80%;
-        height: 60%;
+        height: 80%;
     }
 
     form input{

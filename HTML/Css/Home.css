@@ -211,6 +211,12 @@ a{
         margin-right: 20px;
     }
 
+    .navbar a:hover{
+        transition: 0.3s;
+        color: white;
+        transition: 0.5s;
+    }
+
     .home{
         padding: 5% ;
         width: 90%;
@@ -229,8 +235,7 @@ a{
     }
     
     .btn:hover{
-        transition: 0.5s;
-        transform: scale(1.2) translateY(10px)
+       transform: none;
     }
 
     .box{
