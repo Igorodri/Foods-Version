@@ -1,0 +1,81 @@
+@import url(main.css);
+
+.area{
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.contatos{
+    text-align: center;
+    border: 2px solid orange;
+    background-color: orange;
+    border-radius: 10px;
+    width: 450px;
+    height: 550px;
+}
+
+input{
+    width: 350px;
+    padding: 8px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    margin-top: 5px;
+    outline: none;
+}
+
+textarea{
+    margin-top: 10px;
+    width: 356px;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid orange;
+    resize: none;
+    outline: none;
+    font-size: 16px;
+}
+
+#btn{
+    color: orange;
+    transition: 0.5s;
+    font-size: 18px;
+}
+
+#btn:hover{
+    transition: 0.5s;
+    width: 380px;
+}
+
+
+@media screen and (max-width: 430px){
+
+    h1{
+        margin-top: 10px;
+        font-size: 20px;
+    }  
+    
+    .contatos{
+        width: 350px;
+        height: 500px;
+    }
+
+    input{
+        width: 300px;
+        padding: 8px;
+    }
+
+    textarea{
+        width: 310px;
+    }
+
+    #btn:hover{
+     width: 330px;
+    }
+}    

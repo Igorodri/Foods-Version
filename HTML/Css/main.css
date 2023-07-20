@@ -1,0 +1,110 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #363636;
+    overflow-x: hidden;
+}
+
+header{
+    border: 1px solid black;
+    background-color: orange;
+    width: 100%;
+    color: white;
+    height: 10vh;
+}
+
+.logo img{
+    border: 2px solid white;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;
+    position: absolute;
+    margin: 10px;
+    width: 3%;
+}
+
+.entrar{
+    margin-top: 15px;
+    margin-right: 15px;
+    text-align: end;
+}
+
+.entrar img{
+    border-radius: 25px;
+    padding: 5px;
+    transition: 0.3s;
+    width: 2%;
+}
+
+.entrar img:hover{
+    width: 35px;
+    transition: 0.3s;
+}
+
+.entrar a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.entrar a:hover{
+    transition: 0.3s;
+    color: black;
+    transition: 0.5s;
+}
+
+#rodape{
+    margin-top: 3%;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.contas{
+    text-align: center;
+}
+
+.contas img{
+    width: 35px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+
+#google{
+    width: 30px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50px;
+    padding: 2px;
+}
+@media screen and (max-width: 430px){
+
+    .logo img{
+        width: 10%;
+    }
+
+    .entrar{
+        margin-top: 3%;
+        margin-right: 5%;
+        text-align: end;
+    }
+
+    .entrar img{
+        width: 8%;
+    }
+
+    #rodape{
+        margin: 20px -25px;
+        text-align: center;
+        color: white;
+    }
+}

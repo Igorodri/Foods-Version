@@ -1,0 +1,287 @@
+@import url(main.css);
+
+.navbar{
+    justify-content: center;
+    color: white;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li{
+    margin-right: 50px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.navbar a:hover{
+    transition: 0.3s;
+    color: orange;
+    transition: 0.5s;
+}
+
+.home{
+    padding: 5% 20%;
+    width: 80%;
+    min-height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.home-img img{
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+    border: 4px solid  white;
+    background-color: orange;
+    border-radius: 50px;
+}
+
+.home-text h1{
+    display: inline;
+    padding: 10px;
+    font-size: 32px;
+    color: white;
+    border-radius: 10px;
+    background-color: orange;
+}
+
+.home-text h2{
+    font-size: 25px;
+    color: white;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    border:1px solid orange;
+    border-radius: 10px;
+    background-color: orange;
+    padding: 15px;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    transition: 0.5s;
+    transform: scale(1.2) translateY(10px)
+}
+
+.sobre{
+    background-color: orange;
+    text-align: center;
+    padding: 100px 150px 100px 150px;
+}
+
+.sobre h1{
+    border: 1px solid #363636;
+    padding: 8px;
+    font-size: 25px;
+    background-color: #363636;
+    border-radius: 10px;
+    color: white;
+}
+
+.sobre img{
+    margin-top: 30px;
+    border: 3px solid orange;
+    border-radius: 30px;
+    padding: 20px;
+    width: 70px;
+}
+
+.area{
+    display: flex;
+    justify-content: center;
+}
+
+.area2{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    border: 1px solid  transparent;
+    background-color: white;
+    border-radius: 10px;
+    height: 320px;
+    width: 500px;
+    margin-left:25px;
+    box-shadow: 0px 0.5px 0px 0.5px rgba(00,00,00,0.5);
+    transition: 0.5s;
+}
+
+.area2 .box:hover{
+    transition: 0.5s;
+    transform: scale(1.05,1.03) translateY(10px);
+}
+
+.area2 .box h3{
+    transition: 3s;
+}
+
+.area2 .box:hover h3{
+    transition: 0.5s;
+    color: orange;
+}
+
+.box img{
+    margin-top: 30px;
+    border: 3px solid orange;
+    border-radius: 30px;
+    padding: 20px;
+    width: 70px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.servico{
+    background-color: #363636;
+    text-align: center;
+    padding: 150px 100px 150px 100px;
+}
+
+.servico h1{
+    border: 1px solid orange;
+    padding: 8px;
+    font-size: 25px;
+    background-color: orange;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.cardapio{
+    background-color: orange;
+    text-align: center;
+    padding: 25px;
+}
+
+.cardapio h1{
+    border: 1px solid #363636;
+    padding: 8px;
+    font-size: 25px;
+    background-color: #363636;
+    border-radius: 10px;
+    color: white;
+}
+
+.area-cardapio{
+    display: flex;
+    justify-content: center;
+}
+
+.box-cardapio{
+    border: 1px solid  transparent;
+    background-color: white;
+    border-radius: 10px;
+    height: 300px;
+    width: 225px;
+    margin-left: 50px;
+    box-shadow: 0px 0.5px 0px 0.5px rgba(00,00,00,0.5);
+    color: orange;
+    transition: 0.5s;
+}
+
+.box-cardapio:hover{
+    transition: 0.5s;
+    transform: scale(1.05,1.03) translateY(10px);
+}
+
+.box-cardapio img{
+    border-radius: 8px;
+    height: 250px;
+    width: 225px;
+}
+
+@media screen and (max-width: 430px){
+    .navbar li{
+        margin-right: 20px;
+    }
+
+    .home{
+        padding: 5% ;
+        width: 90%;
+        min-height: 50vh;
+        display: grid;
+        align-items: center;
+    }
+
+    .btn:hover{
+        transform: none;
+    }
+
+    .btn{
+        padding: 7px;
+        margin-right: 60px;
+    }
+    
+    .btn:hover{
+        transition: 0.5s;
+        transform: scale(1.2) translateY(10px)
+    }
+
+    .box{
+        width: 200px;
+        height: 350px;
+    }
+
+    section{
+        margin-top: 20px;
+    }
+
+    .sobre, .servico{
+        width: 100%;
+        padding: 10px 0; 
+    }
+
+    .sobre h1, .servico h1, .cardapio h1{
+        padding: 0;
+    }
+
+    .area, .area-cardapio{
+        display: grid;
+        grid-auto-flow: column;;
+        scroll-behavior:smooth;
+        overflow-y:hidden;
+    }
+
+    .cardapio{
+        padding: 10px;
+    }
+
+    .box-cardapio:hover{
+        transform: none;
+    }
+
+    .box-cardapio{
+        width: 160px;
+        height: 250px;
+        margin-left: 20px;
+    }
+
+    .box-cardapio img{
+        border-radius: 8px;
+        height: 180px;
+        width: 160px;
+    }
+
+    .carrosel{
+        margin: 10% 0;
+        width: 100%;
+    }
+
+
+}
