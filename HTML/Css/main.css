@@ -43,11 +43,6 @@ header{
     width: 2%;
 }
 
-.entrar img:hover{
-    width: 35px;
-    transition: 0.3s;
-}
-
 .entrar a{
     text-decoration: none;
     color: white;

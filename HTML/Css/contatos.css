@@ -57,25 +57,26 @@ textarea{
 @media screen and (max-width: 430px){
 
     h1{
-        margin-top: 10px;
-        font-size: 20px;
+        margin-top: 4%;
+        font-size: 90%;
     }  
     
     .contatos{
-        width: 350px;
-        height: 500px;
+        width: 80%;
+        height: 75%;
     }
 
     input{
-        width: 300px;
-        padding: 8px;
+        width: 80%;
+        padding: 2%;
     }
 
     textarea{
-        width: 310px;
+        width: 82%;
     }
 
     #btn:hover{
-     width: 330px;
+        width: 80%;
+        padding: 1%;
     }
 }    

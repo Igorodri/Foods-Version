@@ -110,18 +110,19 @@ form a:hover{
 
 @media screen and (max-width: 430px){
     .login{
-        width: 350px;
-        height: 450px;
+        width: 80%;
+        height: 60%;
     }
 
     form input{
-        width: 280px;
-        padding: 8px;
+        width: 80%;
+        padding: 2%;
 
     }
 
     #btn{
-        width: 290px;
+        width: 85%;
+        padding: 1%;
     }
 
     #btn:hover{

@@ -251,7 +251,7 @@ a{
         padding: 0;
     }
 
-    .area, .area-cardapio{
+    .area, .area2, .area-cardapio{
         display: grid;
         grid-auto-flow: column;;
         scroll-behavior:smooth;
