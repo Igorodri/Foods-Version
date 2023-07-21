@@ -74,9 +74,12 @@ textarea{
     textarea{
         width: 82%;
     }
+    #btn{
+        width: 75%;
+        padding: 1%;
+    }
 
     #btn:hover{
-        width: 80%;
-        padding: 1%;
+        transform: none;
     }
 }    
