@@ -24,18 +24,17 @@ function logar(){
 function feedback(){
     var nome = document.getElementById('nome').value;
     var tel = document.getElementById('tel').value;
-    var senha = document.getElementById('senha').value;
+    var email = document.getElementById('email').value;
     var assunto = document.getElementById('assunto').value;
     var alert = document.getElementById('alert').style.display ='none';
     var alert1 = document.getElementById('alert');
 
-    if(nome != "" && tel != "" && senha != "" && assunto!= ""){
+    if(nome != "" && tel != "" && email != "" && assunto!= ""){
         alert1.innerHTML = "Mensagem enviada com sucesso! Agradecemos o Feedback";
         alert = document.getElementById('alert').style.color = 'green';
         alert = document.getElementById('alert').style.display = 'block';
         nome = document.getElementById('nome').style.borderColor = 'green';
         email = document.getElementById('email').style.borderColor = 'green';
-        senha = document.getElementById('senha').style.borderColor = 'green';
         assunto = document.getElementById('assunto').style.borderColor = 'green';
     }
 
@@ -57,13 +56,13 @@ function feedback(){
         tel = document.getElementById('tel').style.borderColor = 'green';
     }
 
-    if(senha == ""){
+    if(email == ""){
         alert1.innerHTML = "Campo não preenchido";
         alert = document.getElementById('alert').style.color = 'red';
         alert = document.getElementById('alert').style.display = 'block';
-        senha = document.getElementById('senha').style.borderColor = 'red';
+        email = document.getElementById('email').style.borderColor = 'red';
     }else{
-        senha = document.getElementById('senha').style.borderColor = 'green';
+        email = document.getElementById('email').style.borderColor = 'green';
     }
 
     if(assunto == ""){

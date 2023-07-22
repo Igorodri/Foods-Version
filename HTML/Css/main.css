@@ -31,13 +31,13 @@ header{
 }
 
 .entrar{
-    margin: 0.7%;
+    margin-top: 1%;
+    margin-right: 1%;
     text-align: end;
 }
 
 .entrar img{
     border-radius: 25px;
-    padding: 5px;
     transition: 0.3s;
     width: 2%;
 }
@@ -87,8 +87,6 @@ header{
     }
 
     .entrar{
-        margin-top: 3%;
-        margin-right: 5%;
         text-align: end;
     }
 
