@@ -108,7 +108,7 @@ form a:hover{
     color: white;
 }
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 600px){
     .login{
         width: 80%;
         height: 80%;

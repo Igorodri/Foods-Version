@@ -80,7 +80,7 @@ header{
     border-radius: 50px;
     padding: 2px;
 }
-@media screen and (max-width: 430px){
+@media screen and (max-width: 600px){
 
     .logo img{
         width: 10%;

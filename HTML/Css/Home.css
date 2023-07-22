@@ -206,7 +206,7 @@ a{
     width: 225px;
 }
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 600px){
     .navbar li{
         margin-right: 20px;
     }
